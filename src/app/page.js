@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { ethers } from 'ethers';
 import ZkVotingABI from '../abi/ZkVotingABI.json';
-const votingContractAddress = "0x8c62eCb160E769FdbcCA738C6d10BF1C28007b8E";
+const votingContractAddress = "0x6bff5B1F596C58398092f439B7D5674bD8aA6fC2";
 const sepoliaExplorerBaseUrl = "https://sepolia.etherscan.io/tx/";
 
 export default function Home() {
