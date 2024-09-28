@@ -1,0 +1,17 @@
+{
+  "inputs": [
+    {
+      "name": "voteChoice",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "voteLimit",
+      "public": true,
+      "type": "field"
+    }
+  ],
+  "output": {
+    "type": "bool"
+  }
+}
