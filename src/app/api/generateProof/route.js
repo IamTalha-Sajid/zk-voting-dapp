@@ -21,7 +21,7 @@ export async function POST(req) {
         execSync(`${zokratesPath} generate-proof`, { stdio: 'inherit', shell: true });
 
         // Read the proof from proof.json
-        const proof = require('../../../../../zokrates/proof.json');
+        const proof = require('../../../../proof.json');
 
         // Return the generated proof
         return new Response(JSON.stringify(proof), { status: 200 });
